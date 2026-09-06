@@ -41,7 +41,7 @@ Complete list of AI and technology certifications with verification links.
 
 | # | Certification | Verification |
 |---|--------------|--------------|
-| 20 | Elements of AI | University of Helsinki / MinnaLearn |
+| 20 | Elements of AI | [Verify](https://certificates.mooc.fi/validate/t7ejoyzwnxg) |
 | 21 | Build Your 2025 Winning Data Science Resume with AI | Analytics Vidhya - ID: 102ak7rc1n |
 | 22 | Python Coder Badge | Kaggle Profile |
 
