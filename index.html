@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadrack Baraka Mwahanga</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; line-height: 1.6; }
+        
+        nav { position: fixed; top: 0; width: 100%; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #e5e5e5; z-index: 100; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        nav a { text-decoration: none; color: #1a1a1a; font-weight: 500; }
+        nav .links a { margin-left: 2rem; font-size: 0.9rem; }
+        
+        .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem; background: #fafafa; }
+        .hero h1 { font-size: 3.5rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.02em; }
+        .hero p { font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto 2rem; }
+        .hero .cta { display: inline-block; padding: 0.8rem 2rem; background: #1a1a1a; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; }
+        
+        section { padding: 5rem 2rem; max-width: 900px; margin: 0 auto; }
+        h2 { font-size: 2rem; margin-bottom: 2rem; font-weight: 700; }
+        
+        .project { background: #fafafa; border: 1px solid #e5e5e5; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+        .project h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+        .project .tag { display: inline-block; padding: 0.2rem 0.8rem; background: #1a1a1a; color: #fff; border-radius: 20px; font-size: 0.75rem; margin-right: 0.5rem; margin-bottom: 0.5rem; }
+        .project p { color: #555; margin-top: 1rem; }
+        .project .tech { margin-top: 1rem; font-size: 0.85rem; color: #888; }
+        
+        .certs { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+        .cert { background: #fafafa; border: 1px solid #e5e5e5; border-radius: 8px; padding: 1.2rem; }
+        .cert .platform { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; }
+        .cert .name { font-weight: 600; margin-top: 0.3rem; }
+        .cert a { font-size: 0.8rem; color: #1a1a1a; text-decoration: underline; }
+        
+        .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; text-align: center; margin-bottom: 3rem; }
+        .stat .number { font-size: 3rem; font-weight: 700; }
+        .stat .label { color: #888; font-size: 0.9rem; }
+        
+        footer { text-align: center; padding: 3rem 2rem; border-top: 1px solid #e5e5e5; color: #888; font-size: 0.85rem; }
+        footer a { color: #1a1a1a; }
+        
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2.2rem; }
+            .stats { grid-template-columns: 1fr; }
+            nav .links a { margin-left: 1rem; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Shadrack Mwahanga</a>
+        <div class="links">
+            <a href="#projects">Projects</a>
+            <a href="#certs">Certs</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div>
+            <h1>Shadrack Baraka Mwahanga</h1>
+            <p>I study law at Kabarak University. I build AI tools that run offline for students who cannot afford data.</p>
+            <a href="#projects" class="cta">See my work</a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Got into AI during my second year when I realized most students here have no idea how to use these tools. Started building things. Now I lead a team working on Research in a Stick, a USB-based AI that runs offline for students without internet. I also hold 24 certifications in AI, 15 from Anthropic.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <span class="tag">CRIW 2026</span>
+            <span class="tag">Team Leader</span>
+            <h3>Research in a Stick (RIS)</h3>
+            <p>A USB stick that runs AI offline. No internet, no cloud, no installation. Built for 4.5 million Kenyan students who cannot afford data. Students plug in the USB, open a browser, and get AI chat, a knowledge library, document analysis, and citation formatting.</p>
+            <div class="tech">Python, Ollama, LangChain, ChromaDB, Kiwix, Llama 3.2, Qwen 2.5</div>
+        </div>
+
+        <div class="project">
+            <span class="tag">Full-Stack</span>
+            <span class="tag">TypeScript</span>
+            <h3>Kabarak Smart Attendance System (KSAS)</h3>
+            <p>QR codes that refresh every 5 seconds. Five layers of security before attendance is recorded. Built with React, TypeScript, and Firebase. Live at ksas-ten.vercel.app.</p>
+            <div class="tech">React, TypeScript, Firebase, Tailwind CSS, Vite</div>
+            <p><a href="https://ksas-ten.vercel.app" target="_blank">Live demo</a></p>
+        </div>
+    </section>
+
+    <section id="stats">
+        <div class="stats">
+            <div class="stat">
+                <div class="number">24</div>
+                <div class="label">Certifications</div>
+            </div>
+            <div class="stat">
+                <div class="number">15</div>
+                <div class="label">Anthropic Badges</div>
+            </div>
+            <div class="stat">
+                <div class="number">4.5M</div>
+                <div class="label">Students RIS Serves</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certs">
+        <h2>Certifications</h2>
+        <div class="certs">
+            <div class="cert">
+                <div class="platform">Anthropic</div>
+                <div class="name">AI Fluency: Framework & Foundations</div>
+                <a href="https://academy.claude.com/verify/0a0ceadeca69645a3ab862ad15932ccd" target="_blank">Verify</a>
+            </div>
+            <div class="cert">
+                <div class="platform">Anthropic</div>
+                <div class="name">Claude 101</div>
+                <a href="https://academy.claude.com/verify/aba71042036e941fcbe4e9ac5bf38c3d" target="_blank">Verify</a>
+            </div>
+            <div class="cert">
+                <div class="platform">Anthropic</div>
+                <div class="name">Claude Code 101</div>
+                <a href="https://academy.claude.com/verify/9a11d27a075b8427574a2d00ea9f7e18" target="_blank">Verify</a>
+            </div>
+            <div class="cert">
+                <div class="platform">Anthropic</div>
+                <div class="name">Claude Platform 101</div>
+                <a href="https://academy.claude.com/verify/69c374df6efa1072995e9217e647c621" target="_blank">Verify</a>
+            </div>
+            <div class="cert">
+                <div class="platform">Anthropic</div>
+                <div class="name">AI Fluency for Builders</div>
+                <a href="https://academy.claude.com/verify/474ee3da11277eca2414063256d80a1f" target="_blank">Verify</a>
+            </div>
+            <div class="cert">
+                <div class="platform">Microsoft Learn</div>
+                <div class="name">Intro to Generative AI and Agents</div>
+                <a href="https://learn.microsoft.com/en-us/users/shadrackbarakamwahanga-4798/" target="_blank">Verify</a>
+            </div>
+            <div class="cert">
+                <div class="platform">University of Helsinki</div>
+                <div class="name">Elements of AI</div>
+                <a href="https://certificates.mooc.fi/validate/t7ejoyzwnxg" target="_blank">Verify</a>
+            </div>
+            <div class="cert">
+                <div class="platform">Analytics Vidhya</div>
+                <div class="name">Data Science Resume with AI</div>
+                <a href="#" target="_blank">ID: 102ak7rc1n</a>
+            </div>
+        </div>
+        <p style="margin-top: 1.5rem; color: #888; font-size: 0.9rem;">+ 16 more certifications. <a href="https://github.com/ishiidoc96-ship-it/shadrack-portfolio/blob/main/certifications.md" target="_blank">View all</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:shadrackb@kabarak.ac.ke">shadrackb@kabarak.ac.ke</a><br>
+            <a href="https://linkedin.com/in/shadrackbaraka" target="_blank">LinkedIn</a> · 
+            <a href="https://github.com/shadrackb1" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Built by Shadrack Baraka Mwahanga · Kabarak University · 2026</p>
+    </footer>
+</body>
+</html>
