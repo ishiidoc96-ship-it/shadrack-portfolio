@@ -8,7 +8,7 @@
 
 ## About Me
 
-I study law at Kabarak University in Kenya. I write code. I use AI daily for legal research, essay writing, and problem-solving. I hold 20+ certifications in AI, including 15 from Anthropic's Claude Academy.
+I study law at Kabarak University in Kenya. I write code. I use AI daily for legal research, essay writing, and problem-solving. I hold 24 certifications in AI, including 15 from Anthropic's Claude Academy and 4 from Microsoft Learn.
 
 I am the team leader of **Research in a Stick (RIS)**, an offline AI-powered research tool that runs on a USB stick. RIS addresses the digital divide for 4.5 million plus Kenyan students who lack reliable internet.
 
@@ -69,13 +69,15 @@ RIS is a portable USB-based system that transforms any computer into a complete 
 | Anthropic | Teaching AI Fluency | Completed |
 | Anthropic | Introduction to Claude Cowork | Completed |
 | Anthropic | AI Capabilities and Limitations | Completed |
-| Microsoft Learn | Introduction to Generative AI and Agents | Completed |
 | Microsoft Learn | Introduction to AI Concepts | Completed |
+| Microsoft Learn | Introduction to Generative AI and Agents | Completed |
+| Microsoft Learn | Explore Generative AI | Completed |
+| Microsoft Learn | Analyze Requirements for AI-Powered Business Solutions | Completed |
 | University of Helsinki | Elements of AI | Completed |
 | Analytics Vidhya | Data Science Resume with AI | Completed |
 | Kaggle | Python Coder | Completed |
 | NVIDIA DLI | Agentic AI Explained | In Progress |
-| Microsoft Learn | AI Skills Navigator | In Progress |
+| Microsoft Learn | Explore Internet Search and Beyond | In Progress |
 
 See [full certification details](certifications.md).
 

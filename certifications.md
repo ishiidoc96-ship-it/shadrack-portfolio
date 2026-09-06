@@ -26,15 +26,24 @@ Complete list of AI and technology certifications with verification links.
 
 ---
 
-## Other Platforms (5)
+## Microsoft Learn (4)
 
 | # | Certification | Verification |
 |---|--------------|--------------|
-| 16 | Introduction to Generative AI and Agents | Microsoft Learn Profile |
-| 17 | Introduction to AI Concepts | Microsoft Learn Profile |
-| 18 | Elements of AI | University of Helsinki / MinnaLearn |
-| 19 | Build Your 2025 Winning Data Science Resume with AI | Analytics Vidhya - ID: 102ak7rc1n |
-| 20 | Python Coder Badge | Kaggle Profile |
+| 16 | Introduction to AI Concepts | [Profile](https://learn.microsoft.com/en-us/users/shadrackbarakamwahanga-4798/) |
+| 17 | Introduction to Generative AI and Agents | [Profile](https://learn.microsoft.com/en-us/users/shadrackbarakamwahanga-4798/) |
+| 18 | Explore Generative AI | [Profile](https://learn.microsoft.com/en-us/users/shadrackbarakamwahanga-4798/) |
+| 19 | Analyze Requirements for AI-Powered Business Solutions | [Profile](https://learn.microsoft.com/en-us/users/shadrackbarakamwahanga-4798/) |
+
+---
+
+## Other Platforms (3)
+
+| # | Certification | Verification |
+|---|--------------|--------------|
+| 20 | Elements of AI | University of Helsinki / MinnaLearn |
+| 21 | Build Your 2025 Winning Data Science Resume with AI | Analytics Vidhya - ID: 102ak7rc1n |
+| 22 | Python Coder Badge | Kaggle Profile |
 
 ---
 
@@ -42,17 +51,16 @@ Complete list of AI and technology certifications with verification links.
 
 | # | Course | Platform |
 |---|--------|----------|
-| 21 | Agentic AI Explained | NVIDIA Deep Learning Institute |
-| 22 | AI Skills Navigator | Microsoft Learn |
+| 23 | Agentic AI Explained | NVIDIA Deep Learning Institute |
+| 24 | Explore Internet Search and Beyond | Microsoft Learn |
 
 ---
 
+## Total: 22 Completed + 2 In Progress = 24
+
 ## How to Verify
 
-Click any verification link above. It will show:
-- Student name
-- Course name
-- Completion date
-- Certificate status
-
-All 15 Anthropic links are live and verifiable.
+- **Anthropic:** Click any verification link above. Shows student name, course, completion date.
+- **Microsoft Learn:** Visit the profile link. Shows all completed modules and badges.
+- **Kaggle:** Visit the user profile. Shows Python Coder badge.
+- **Analytics Vidhya:** Certificate ID: 102ak7rc1n
